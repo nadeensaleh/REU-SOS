@@ -1,4 +1,4 @@
-.libPaths( c( .libPaths(), "./lib") )
+.libPaths( c( .libPaths(), ".Stats/src/lib") )
 
 library(minerva)
 library(ggplot2) 
