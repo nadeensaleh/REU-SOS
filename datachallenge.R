@@ -1,4 +1,4 @@
-.libPaths( c( .libPaths(), "./Stats/src/lib") )
+.libPaths( c( .libPaths(), "~/REU-SOS/Stats/src/lib"))
 #Sydney
 library(minerva)
 library(ggplot2) 
@@ -7,7 +7,7 @@ library(RMySQL)
 library(lsr)
 
 connection <- dbConnect(MySQL(), user = 'root', password = '', host = '127.0.0.1', dbname='ProductHunt')
-f.query <- dbSendQuery(connection, "SELECT DAYOFWEEK(created_at) as day, HOUR(created_at) as hour, votes_count FROM Posts")
+f.query <- dbSendQuery(connection, "SELECT DAYOFWEEK(created_at) as day, HOUR(created_at) as hour, votes_count FROM Posts GROUP BY day,hour")
 f.results = fetch(f.query, n=-1)
 data = f.results
 #data <- data[order(data$votes_count),]
