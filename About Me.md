@@ -9,7 +9,7 @@
 
 ##Things I know about CS.
 
-[www.nadeensalehcom](www.nadeensalehcom) <- some front-end projects done for Internet Computing and internship at Silverlogic LLC
+[www.nadeensaleh.com](www.nadeensaleh.com) <- some front-end projects done for Internet Computing and internship at Silverlogic LLC
 
 *Interests*: Data mining, machine learning, web development, databases,
 algorithms, statistics
