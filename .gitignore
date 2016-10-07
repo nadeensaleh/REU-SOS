@@ -3,3 +3,5 @@
 *SecretDataChallenge/.gitignore
 *SecretDataChallenge/.ipynb_checkpoints
 *.DS_Store
+*.gitignore
+
