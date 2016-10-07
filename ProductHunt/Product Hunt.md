@@ -21,4 +21,3 @@ Founded in 2013, ProductHunt is a website that lets users share and discover new
    
 3. We noticed a lot of NULL columns. That's when we realized the headers were changed.. time to reimport the import.sql file with the correct headers (some were ommited in the new dataset, e.j. profile_url, image)
 4. Took all instances of taglines over the median post value (38) and analyzed the text to extract the most popular phrases/words.
-<img src="pics/tagline_word_count.png/" width='500'>
