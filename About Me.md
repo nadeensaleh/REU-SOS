@@ -1,6 +1,6 @@
 ##Hi, my name's Nadeen Saleh.
 
-<img src="https://scontent.xx.fbcdn.net/v/t1.0-9/12391314_10208523492469885_4880738268179151490_n.jpg?oh=47257b635d3fb7cde89fac099d102188&oe=57C7E4BA" width="200" height="200" />
+<img src="https://scontent-mia1-1.xx.fbcdn.net/v/t1.0-9/12391314_10208523492469885_4880738268179151490_n.jpg?oh=14938dcc71fa76075c6442a93b7a9962&oe=586618BA" width="200" height="200" />
 
 * I'm from South Florida
 * I go to school at Florida Atlantic University in Boca Raton
