@@ -59,5 +59,19 @@ ggplot(data = usedtools, aes(x = Tool, y = Frequency, fill = Tool)) +
   coord_flip() +
   theme(legend.position="none") +
   labs(x= NULL, y = "Percent of users using tool") +
-  theme(text=element_text(size=18),
-          axis.title=element_text(size=18,face="bold"))
+  theme(text=element_text(size=24),
+          axis.title=element_text(size=24,face="bold"))
+
+# Fixed graph colors to fit poster theme
+library(ggplot2)
+library(RColorBrewer)
+positions <- c("Macros", "Chart Wizard", "Pivot Tables", "LOOKUP Functions", "Conditional Frequency", "Find/Replace", "Data Sort Tool")
+ggplot(data = usedtools, aes(x = Tool, y = Frequency, fill = Tool)) + 
+  geom_bar(stat="identity") +
+  geom_text(aes(label=Percent), vjust=0.25, hjust=1.3, size=6, colour="white", fontface="bold") +
+  scale_x_discrete(limits = positions) +
+  coord_flip() +
+  theme(legend.position="none") +
+  labs(x= NULL, y = "Percent of users using tool") +
+  theme(text=element_text(size=24),
+        axis.title=element_text(size=24,face="bold"))

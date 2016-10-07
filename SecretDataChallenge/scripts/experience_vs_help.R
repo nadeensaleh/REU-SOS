@@ -1,4 +1,4 @@
-ehdata = read.csv("/Users/Nadeensterx3/Desktop/REU-SOS/spreadsheets/SurveyAnalysis/data/experience_help.csv", stringsAsFactors=FALSE)
+ehdata = read.csv("/Users/Nadeensterx3/Desktop/REU-SOS/Spreadsheets/spreadsheets/SurveyAnalysis/data/experience_help.csv", stringsAsFactors=FALSE)
 ehdata[is.na(ehdata)] <- 0
 colnames(ehdata) <- c("Experience", "Google", "Youtube", "Forums", "Blogs", "Other")
 
